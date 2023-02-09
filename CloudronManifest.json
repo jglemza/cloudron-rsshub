@@ -1,0 +1,7 @@
+{
+  "version": "0.1.0",
+  "healthCheckPath": "/",
+  "httpPort": 1200,
+  "runtimeDirs": [ "/root/.npm" ], 
+  "manifestVersion": 2
+}

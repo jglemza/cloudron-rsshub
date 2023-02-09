@@ -2,6 +2,6 @@
   "version": "0.1.0",
   "healthCheckPath": "/",
   "httpPort": 1200,
-  "runtimeDirs": [ "/root/.npm" ], 
+  "runtimeDirs": [ "/home/cloudron/.npm" ], 
   "manifestVersion": 2
 }

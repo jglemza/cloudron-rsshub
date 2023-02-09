@@ -1,4 +1,5 @@
 #!/bin/bash
-
-cd /app/code/rsshub
-npm start 
+set -eu
+chown -R cloudron:cloudron /app/code
+echo "Start RSSHub"
+exec /usr/local/bin/gosu cloudron:cloudron npm start --prefix /app/code

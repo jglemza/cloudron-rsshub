@@ -8,5 +8,6 @@
   "httpPort": 1200,
   "addons": {
     "localstorage": {}
-  }
+  },
+  "icon": "file://logo.png"
 }

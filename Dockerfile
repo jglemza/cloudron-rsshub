@@ -5,10 +5,9 @@ WORKDIR /app/code/
 
 RUN git clone https://git.hwarf.com/jglemza/RSSHub.git /app/code
 
-RUN npm install
+RUN npm install --omit=dev
 #RUN npm ci --omit=dev
 
-ADD start.sh /app/pkg/
+COPY start.sh /app/pkg/
 
 CMD [ "/app/pkg/start.sh" ]
-

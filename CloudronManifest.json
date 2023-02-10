@@ -1,7 +1,12 @@
 {
-  "version": "0.1.0",
+  "manifestVersion": 2,
+  "title": "RSSHub",
+  "id": "com.hwarf.rsshub",
+  "version": "1.0.0",
+  "runtimeDirs": [ "/home/cloudron/.npm" ],
   "healthCheckPath": "/",
   "httpPort": 1200,
-  "runtimeDirs": [ "/home/cloudron/.npm" ], 
-  "manifestVersion": 2
+  "addons": {
+    "localstorage": {}
+  }
 }

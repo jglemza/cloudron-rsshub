@@ -3,7 +3,7 @@
   "title": "RSSHub",
   "id": "com.hwarf.rsshub",
   "version": "1.0.0",
-  "runtimeDirs": [ "/root/.npm" ],
+  "runtimeDirs": [ "/home/cloudron/.npm" ],
   "healthCheckPath": "/",
   "httpPort": 1200,
   "addons": {
